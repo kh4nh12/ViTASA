@@ -38,16 +38,18 @@
 ## Citation
 Please cite the following paper if you found it useful in your work.
 ```
-@inproceedings{tran-etal-2023-vitasd-vietnamese,
-    title = "ViTASA: Vietnamese Targeted Aspect-based Sentiment Analysis in Multiple Data Domains",
-    author = "",
-    booktitle = "",
-    month = "",
-    year = "",
-    address = "",
-    publisher = "",
-    url = "",
-    pages = "",
+@article{TRAN2025101800,
+title = {ViTASA: New benchmark and methods for Vietnamese targeted aspect sentiment analysis for multiple textual domains},
+journal = {Computer Speech & Language},
+volume = {93},
+pages = {101800},
+year = {2025},
+issn = {0885-2308},
+doi = {https://doi.org/10.1016/j.csl.2025.101800},
+url = {https://www.sciencedirect.com/science/article/pii/S0885230825000257},
+author = {Khanh Quoc Tran and Quang Phan-Minh Huynh and Oanh Thi-Hong Le and Kiet {Van Nguyen} and Ngan Luu-Thuy Nguyen},
+keywords = {Targeted aspect sentiment analysis, Transformer-based, Multi-head attention, Low-resource NLP, Social media, Opinion mining},
+abstract = {Targeted Aspect Sentiment Analysis (TASA) has gained substantial attraction in recent years, fostering diverse studies and technological advancements. However, the development of TASA resources for Vietnamese has been limited. This paper introduces ViTASA, a comprehensive, high-quality dataset designed to catalyze advancements in Vietnamese TASA. ViTASA encompasses over 500,000 target-aspect pairs from social media comments across three key domains: mobile, restaurant, and hotel, thereby addressing critical gaps in existing datasets. Additionally, ViTASA integrates a novel multi-task evaluation framework, posing new challenges and enabling robust model assessments. We present ViTASD, an innovative BERT-based approach optimized for the linguistic features of Vietnamese. Comparative analyses demonstrate that ViTASD significantly outperforms existing state-of-the-art methods, including CG-BERT, QACG-BERT, BERT-pair-QA, BERT-pair-NLI, and a range of zero-shot learning models like Gemma, Llama, Mistral and Qwen. Notably, ViTASD achieves superior macro F1-scores of 61.77%, 41.12%, and 52.64% in the mobile, restaurant, and hotel domains respectively. This study not only highlights the challenges inherent in Vietnamese sentiment analysis but also lays a robust foundation for future research endeavors in this area. In a commitment to advancing TASA technology and enhancing the reliability of digital media analyses, we have made the ViTASA dataset, model checkpoints, and source code openly accessible on GitHub11https://github.com/kh4nh12/ViTASD..}
 }
 ```
 
